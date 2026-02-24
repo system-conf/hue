@@ -1,50 +1,41 @@
-# Welcome to your Expo app 👋
+# Hue
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Hue is a minimalist, focus-oriented timer application that uses color spectrums instead of traditional numerical displays. The project consists of both a cross-platform mobile application and a progressive web application (PWA).
 
-## Get started
+## Project Structure
 
-1. Install dependencies
+- /hue-mobile: The mobile application built with React Native and Expo.
+- /hue-web: The web application built with Next.js, TypeScript, and Framer Motion.
 
-   ```bash
-   npm install
-   ```
+## Features
 
-2. Start the app
+- Gesture-based controls for time setting and management.
+- Dynamic color background reflecting the remaining time.
+- Minimalist user interface designed for deep work and meditation.
+- PWA support for easy installation on desktop and mobile devices.
+- Local notifications for timer completion.
 
-   ```bash
-   npx expo start
-   ```
+## Technologies
 
-In the output, you'll find options to open the app in a
+- React Native (Expo)
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Reanimated
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Getting Started
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Mobile Version
+1. Navigate to the hue-mobile directory.
+2. Run npm install.
+3. Run npx expo start.
 
-## Get a fresh project
+### Web Version
+1. Navigate to the hue-web directory.
+2. Run npm install.
+3. Run npm run dev.
 
-When you're ready, run:
+## License
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is licensed under the MIT License - see the LICENSE file for details.
